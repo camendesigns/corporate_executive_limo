@@ -1,0 +1,350 @@
+html, body {
+	background-color: black;
+	padding:0;
+	margin:0;
+    margin-top: 25px;
+    height: 100%;
+}
+
+table, tr, td, th {
+    border: 0px;
+}
+
+.header {
+    margin: auto;
+    width: 960px;
+    height: 100%;
+}
+
+#wrapper {
+    background-color: white;
+    margin: auto;
+    width: 960px;
+    /* Uncomment this if you want to footer to always stick to the bottom, regardless of content and screen height.
+    min-height:100%;
+    height: 100%;
+    */
+}
+
+#h1 {
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-size: 21px;
+    color: #000000;
+}
+
+#h1 {
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+#p {font-family: Trebuchet MS, Helvetica, sans-serif
+    font-size: 14px;
+    color: #000000
+}
+
+#top_banner_home {
+	width: 960px;
+	height: 320px;
+	background-image: url('/images/home/home_top_banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+#top_banner_service {
+    width: 960px;
+    height: 320px;
+    background-image: url('/images/service/service_top_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#top_banner_rates {
+    width: 960px;
+    height: 320px;
+    background-image: url('/images/rates/rates_top_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#top_banner_reservation {
+    width: 960px;
+    height: 320px;
+    background-image: url('/images/reservation/reservation_top_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#top_banner_contact {
+    width: 960px;
+    height: 320px;
+    background-image: url('/images/contact/contact_top_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#content{
+    width: 960px;
+    min-height: 100%;
+    height: 100%;
+    background-color: white;
+    margin-bottom: -100px;
+}
+
+#content_left{
+    width: 250px;
+    float:left;
+    padding-left: 55px;
+}
+
+#content_left_header{
+    font-family: Times New Roman,san-serif;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#content_left_sub_header{
+    font-family: Times New Roman,san-serif;
+    font-style: italic;
+    font-size: 21px;
+    margin-top: -25px;
+}
+
+#content_left_text{
+    font-family: Arial,serif;
+    font-size:16px;
+    margin-top: -25px;
+}
+
+#content_center{
+    width: 250px;
+    float:left;
+    clear: both;
+    padding-left: 50px;
+    margin-top: 73px;
+}
+
+#content_center_text{
+    font-family: Arial,serif;
+    font-size:16px;
+}
+
+
+#content_right{
+    width: 250px;
+    float:right;
+    clear:left;
+    margin-top: 75px;
+    padding-right: 0px;
+}
+
+
+#content_right img{
+    box-shadow: 5px 5px 5px #888888;
+    margin-bottom: 15px;
+}
+
+#content_right_lg{
+    width:300px;
+    float:right;
+    margin-top:60px;
+    padding-right: 100px;
+}
+
+#content_right_lg img{
+    box-shadow: 5px 5px 5px #888888;
+    margin-bottom: 15px;
+}
+
+.content_right_service{
+    margin-right: 25px;
+    width:448px;
+    float:right;
+    margin-top:60px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+
+.content_right_service span {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial,serif;
+    font-size: 16px;
+    padding: 25px;
+    display: block;
+    width: 100%;
+}
+
+#airport_transportation, #weddings, #corporate_accounts, #platinum_vip_service, #shopping_trips, #club_and_casino_hops, #sporting_events, #sight_seeing_tours {
+    display: none;
+}
+
+
+.service_hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#footer {
+    font-family: Arial,serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #fffaf0;
+    width: 960px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    clear:both;
+}
+
+#footer_text_left{
+    font-family: Arial,serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: left;
+    width: 150px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#footer_text_center{
+    font-family: Arial,serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    margin-top: -70px;
+}
+
+#footer_text_right{
+    font-family: Arial,serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: right;
+    color: #FFFFFF;
+    float: right;
+    margin-top: -68px;
+    padding-right: 25px;
+}
+
+#twitter_icon{
+    width: 43px;
+    height: 43px;
+    padding-top:1090px;
+    padding-left:15px;
+}
+
+#facebook_icon{
+    width: 43px;
+    height: 43px;
+    padding-top:1090px;
+    padding-left:15px;
+}
+
+#google_icon{
+    width: 43px;
+    height: 43px;
+    padding-top:1090px;
+    padding-left:795px;
+}
+
+#navbar {
+    list-style:none;
+    margin:0;
+    padding-top:25px;
+    padding-left:55px;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 1px;
+    list-style-type: none;
+    text-align:left;
+ }
+
+#navbar ul li {
+    padding: 0;
+    border-left: 1px solid #000;
+    display:inline;
+}
+
+#navbar ul li.first {
+    border-left: none;
+}
+
+#navbar ul li a {
+    text-decoration:none;
+    padding: .5em .5em;
+    color:#000;
+}
+
+#navbar ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+#navbar ul li a.active{
+    text-decoration: underline;
+}
+
+#champagne_glasses{
+    width: 250px;
+    height: 250px;
+    background-image:url('/images/home/champagne_glasses.jpg');
+    float:left;
+    padding-top:435px;
+    margin-left:650px;
+}
+
+#shopping_bags{
+    width: 250px;
+    height: 250px;
+    background-image:url('/images/home/shopping_bags.jpg');
+    float:left;
+    padding-top:55px;
+    margin-left:650px;
+}
+
+#blue_city{
+    width: 250px;
+    height: 250px;
+    background-image:url('/images/home/blue_city.jpg');
+    float:left;
+    padding-top:55px;
+    margin-left:650px;
+}
+
+#table_rate{
+    width:865px;
+    margin-top: -40px;
+
+}
+
+#table_rate tr th {
+    height: 50px;
+    font-family: Times,san-serif;
+    font-size: 18px;
+    text-align: left;
+    border-style: solid;
+    margin-top: 25px;
+}
+
+#table_rate tr td {
+    font-family: Times, san-serif;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+    padding-left: 25px;
+}
